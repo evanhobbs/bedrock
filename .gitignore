@@ -10,6 +10,9 @@ web/app/uploads/*
 !web/app/mu-plugins/register-theme-directory.php
 !web/app/mu-plugins/bedrock-autoloader.php
 
+#Plugins not in composer
+!ht-knowledge-base
+
 # WordPress
 web/wp
 web/.htaccess
@@ -37,3 +40,4 @@ bin
 
 # Errors
 error_log
+npm-debug.log
